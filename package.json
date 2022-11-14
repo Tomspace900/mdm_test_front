@@ -1,0 +1,13 @@
+{
+  "name": "front-test_mdm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["server", "front"],
+  "scripts": {
+    "front:serve": "yarn --cwd=\"./front\" serve",
+    "front:serve-mac": "yarn --cwd=\"./front\" serve-mac",
+    "server:serve": "yarn --cwd=\"./server\" serve"
+  }
+}
